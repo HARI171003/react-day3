@@ -1,0 +1,48 @@
+.div-main
+{
+    background-image: url(../myimages/pic2.webp);
+    /* background-position: center;
+    background-size: cover ;
+    min-height :100vh;
+    width :100%; */
+    background-position: center;
+    width:100%;
+    height:600px;
+}
+.div-main h1{
+    color: rgb(219, 164, 164);
+    text-align: center;
+    font-size: 4em;
+    font-weight: 900;
+    padding-top: 170px;
+}
+.div-main h2{
+    color: rgb(227, 199, 199);
+    text-align: center;
+    /* margin-left: 20%; */
+    font-size: 4em;
+    font-weight: 900;
+}
+.div-main p{
+    color: rgb(107, 211, 107);
+    margin-left: 12%;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+.div-main a{
+    text-decoration: none;
+    border: 2px solid rgb(218, 45, 45);
+    padding-inline: 30px;
+    padding-block: 10px;
+    border-radius: 30px;
+    color: white;
+    margin-left: 12%;
+    text-align: center;
+    font-size: 1em;
+}
+.div-main a:hover{
+    color: rgb(238, 50, 50);
+    background: rgb(21, 20, 20);
+    transition: 0.5s;
+}
